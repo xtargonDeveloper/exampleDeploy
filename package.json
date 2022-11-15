@@ -1,18 +1,9 @@
 {
-  "name": "skdslider",
-  "version": "1.5.0",
-  "description": "Jquery full width image slider",
-  "main": "src/skdslider.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "scripts": {
-    "minify": "uglifyjs --compress --mangle -o src/skdslider.min.js -- src/skdslider.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:samirkumardas/skdslider.git"
-  },
-  "author": "Samir Das",
-  "devDependencies": {
-    "uglify-js": "^3.3.12"
-  },
-  "dependencies": {}
+    "start": "node app.js"
+  }
 }
+
